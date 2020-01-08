@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/alcortesm/tgz"
+	"github.com/goabstract/go-git/plumbing"
 	"gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/osfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
 )
 
 //go:generate esc -o data.go -pkg=fixtures data
